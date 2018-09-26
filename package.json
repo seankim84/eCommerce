@@ -1,0 +1,18 @@
+{
+  "name": "eCommerce",
+  "version": "1.0.0",
+  "description": "eCommerce with NextJS and PWA",
+  "main": "index.js",
+  "author": "Sean",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "scripts": {
+    "dev":"next",
+    "build":"next build",
+    "start":"next start"
+  }
+}
