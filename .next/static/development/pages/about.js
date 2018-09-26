@@ -10820,7 +10820,13 @@ var About = function About() {
       lineNumber: 9
     },
     __self: this
-  }, "About Page"));
+  }, "About Page"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "lorem ipsum"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(_lib_withLayout__WEBPACK_IMPORTED_MODULE_2__["default"])(About));
@@ -10846,7 +10852,7 @@ var About = function About() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
@@ -10871,5 +10877,5 @@ module.exports = dll_5d62d38be3592dca3a42;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]));;
+},[[5,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map
