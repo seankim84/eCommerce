@@ -14,6 +14,11 @@ export default () => (
                         <a>About</a>
                     </Link>
                 </li>
+                 <li>
+                    <Link href={"/with"}>
+                        <a>With</a>
+                    </Link>
+                </li>
             </ul>
         </nav>
     </header>
