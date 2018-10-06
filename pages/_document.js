@@ -11,7 +11,11 @@ export default class MyDoucment extends Document {
             <html>
                 <Head>
                     <title>Sean's Store</title>
-                    <meta name="author" content={"Sean"} />
+                    <meta name="author" content={"Sean"} /> 
+                    <link 
+                        href="https://cdnjs.cloudflare.com/ajax/libs/antd/3.8.1/antd.min.css" 
+                        rel="stylesheet" 
+                    />
                 </Head>
                 <body>
                     <Main/>
