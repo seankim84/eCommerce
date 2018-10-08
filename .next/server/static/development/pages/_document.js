@@ -102,7 +102,7 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDoucment; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyDocument; });
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "@babel/runtime/regenerator");
 /* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
@@ -140,27 +140,27 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
-var MyDoucment =
+var MyDocument =
 /*#__PURE__*/
 function (_Document) {
-  _inherits(MyDoucment, _Document);
+  _inherits(MyDocument, _Document);
 
-  function MyDoucment() {
-    _classCallCheck(this, MyDoucment);
+  function MyDocument() {
+    _classCallCheck(this, MyDocument);
 
-    return _possibleConstructorReturn(this, _getPrototypeOf(MyDoucment).apply(this, arguments));
+    return _possibleConstructorReturn(this, _getPrototypeOf(MyDocument).apply(this, arguments));
   }
 
-  _createClass(MyDoucment, [{
+  _createClass(MyDocument, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("html", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Head"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", null, "Sean's Store"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
+      return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("html", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Head"], null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("title", null, "Sean || Store"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("meta", {
         name: "author",
-        content: "Sean"
+        content: "Sean.Kim"
       }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("link", {
-        href: "https://cdnjs.cloudflare.com/ajax/libs/antd/3.8.1/antd.min.css",
+        href: "//cdnjs.cloudflare.com/ajax/libs/antd/3.8.1/antd.min.css",
         rel: "stylesheet"
-      })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], null)));
+      }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("style", null, "body { background-color: #EFF2F5!important}")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("body", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], null), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], null)));
     }
   }], [{
     key: "getInitialProps",
@@ -194,7 +194,7 @@ function (_Document) {
     }()
   }]);
 
-  return MyDoucment;
+  return MyDocument;
 }(next_document__WEBPACK_IMPORTED_MODULE_2___default.a);
 
 
