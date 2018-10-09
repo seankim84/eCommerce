@@ -4375,6 +4375,19 @@ rc-animate@^3.0.0-rc.1, rc-animate@^3.0.0-rc.4, rc-animate@^3.0.0-rc.5:
     rc-util "^4.5.0"
     react-lifecycles-compat "^3.0.4"
 
+rc-calendar@^9.7.9:
+  version "9.7.9"
+  resolved "https://registry.yarnpkg.com/rc-calendar/-/rc-calendar-9.7.9.tgz#c2ad017fd3b147d49a9b7a2f15d9f5c88d36814b"
+  integrity sha512-SDWOUkcpUOKfg1/L+RITE4PUMWpSAQchjVhWuwvQBWoWEfUXOI0XrrgsIffJmSPLvJ9h4CoUKJu3s3y03x7FUg==
+  dependencies:
+    babel-runtime "6.x"
+    classnames "2.x"
+    create-react-class "^15.5.2"
+    moment "2.x"
+    prop-types "^15.5.8"
+    rc-trigger "^2.2.0"
+    rc-util "^4.1.1"
+
 rc-calendar@~9.6.0:
   version "9.6.2"
   resolved "https://registry.yarnpkg.com/rc-calendar/-/rc-calendar-9.6.2.tgz#c7309db41225f4b8c81d5a1dcbe46d8ce07b6aee"
