@@ -18,7 +18,7 @@ export const INDEX_QUERY = gql`
     }
   }
 
-  products(where: {onSale: false}){
+  allProducts: products(where: {onSale: false}){
     id
     name
     detail
