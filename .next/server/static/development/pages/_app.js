@@ -361,9 +361,23 @@ var resolvers = {
       }),
           cart = _cache$readQuery.cart;
 
+      var newCart;
+      var foundProduct = cart.find(function (aProduct) {
+        return aProduct.id === product.id;
+      });
+
+      if (foundProduct) {
+        var cleanCart = cart.filter(function (aProduct) {
+          return aProduct.id !== product.id;
+        });
+        newCart = cleanCart;
+      } else {
+        newCart = _toConsumableArray(cart).concat([product]);
+      }
+
       cache.writeData({
         data: {
-          cart: _toConsumableArray(cart).concat([product])
+          cart: newCart
         }
       });
       return null;
