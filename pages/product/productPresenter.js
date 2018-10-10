@@ -1,16 +1,17 @@
 import Head from "next/head";
 import { Button as AntButton } from "antd";
 import Header from "../../components/Header";
-import Button from "../../components/Button";
+import Button from '../../components/Button';
+import CartButton from "../../components/CartButton";
 
 export default ({ data, toggleCart }) => (
-  <>
+  <div>
     <Head>
-      <title>{data.product.name} | Nomad Store</title>
+      <title>{data.product.name} | Sean Store</title>
     </Head>
     <Header
       centerColumn={<h4>Product</h4>}
-      rightColumn={<Button href="/cart" text="Cart" />}
+      rightColumn={<CartButton />}
       leftColumn={<Button href="/" text="Home" />}
     />
     <div className={"product"}>
@@ -37,5 +38,5 @@ export default ({ data, toggleCart }) => (
         }
       `}</style>
     </div>
-  </>
+  </div>
 );
