@@ -1,0 +1,1 @@
+export default () => <h1>This is Product!</h1>
